@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ElmRemoting", "ElmRemoting\ElmRemoting.fsproj", "{F2B30865-C6B4-4C41-9F58-FF55138ADB8E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Shared", "Shared\Shared.fsproj", "{9F0E2C18-79B5-49E6-925D-BCBDF320523D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Client", "Client\Client.fsproj", "{D7E4AE20-1DCC-4FA5-9186-057567022EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2B30865-C6B4-4C41-9F58-FF55138ADB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B30865-C6B4-4C41-9F58-FF55138ADB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B30865-C6B4-4C41-9F58-FF55138ADB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B30865-C6B4-4C41-9F58-FF55138ADB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0E2C18-79B5-49E6-925D-BCBDF320523D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0E2C18-79B5-49E6-925D-BCBDF320523D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0E2C18-79B5-49E6-925D-BCBDF320523D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0E2C18-79B5-49E6-925D-BCBDF320523D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E4AE20-1DCC-4FA5-9186-057567022EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E4AE20-1DCC-4FA5-9186-057567022EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E4AE20-1DCC-4FA5-9186-057567022EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E4AE20-1DCC-4FA5-9186-057567022EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD7D3143-C3A4-415C-851E-4A50371D7252}
+	EndGlobalSection
+EndGlobal
