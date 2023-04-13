@@ -18,6 +18,6 @@ jobs:
         username: ${{ secrets.USERNAME2 }}
         key: ${{ secrets.PRIVATE_KEY }}
         port: ${{ secrets.PORT }}
-        script: whoami
+        script: docker pull aleksandrmelnikov88/gothhub:new
     
 
