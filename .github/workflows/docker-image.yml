@@ -19,6 +19,8 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_NAME }}
         password: ${{ secrets.DOCKER_PASS }}
+    - name: Docker tag
+      run: docker tag elmremoting aleksandrmelnikov88/gothhub:new
     - name: Docker Push
-      run: docker push aleksandrmelnikov88/gothhub:elmremoting
+      run: docker push aleksandrmelnikov88/gothhub:new
 
