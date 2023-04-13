@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag elmremoting:$(date +%s)
+      run: docker build . --file Dockerfile --tag elmremoting
     - name: copy file to server
       uses: appleboy/scp-action@v0.1.4
       with:
@@ -22,5 +22,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         key: ${{ secrets.PR_KEY }}
         port: ${{ secrets.PORT }}
-        source: ${{ steps.changed-files.outputs.all_changed_files }}
+        source: elmremoting
         target: brok
